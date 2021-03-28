@@ -1,0 +1,9 @@
+name: MCKLosowanie
+author: Peridot (McKoxu)
+version: 1.0
+main: me.mckoxu.mcklosowanie.MCKLosowanie
+website: mlgroup.pl
+
+commands:
+  losowanie:
+    description: Rozpoczyna losowanie

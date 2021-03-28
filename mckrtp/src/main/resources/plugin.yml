@@ -1,0 +1,8 @@
+name: MCKRTp
+main: me.mckoxu.mckrtp.MCKRTp
+author: McKoxu
+version: 1.0
+
+commands:
+  randomtp:
+    aliases: [rtp]

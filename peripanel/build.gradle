@@ -1,0 +1,14 @@
+repositories {
+    maven { url "https://repo.panda-lang.org/" }
+    maven { url "https://mvnrepository.com/artifact/com.zaxxer/HikariCP" }
+    maven { url "https://jitpack.io" }
+    maven { url "https://repo.codemc.io/repository/maven-snapshots/" }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly "net.dzikoysk:funnyguilds:4.7.0"
+    compile "com.zaxxer:HikariCP:3.4.1"
+    compile "com.github.P3ridot:periAPI:af8adbe0a2"
+    compile 'net.wesjd:anvilgui:1.5.0-SNAPSHOT'
+}

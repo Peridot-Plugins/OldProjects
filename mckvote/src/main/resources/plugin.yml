@@ -1,0 +1,9 @@
+name: MCKVotee
+main: me.mckoxu.mckvote.MCKVote
+version: 1.0
+author: Peridot
+website: mlgroup.pl
+
+commands:
+  vote:
+    aliases: [glosowanie, glos]

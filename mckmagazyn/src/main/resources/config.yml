@@ -1,0 +1,30 @@
+config: #CZESC KONFIGURACYJNA
+  messages:
+    openchest: '&6Otworzyles magazyn o numerze: &e{NUM}' #Wiadomosc ktora sie wyswietla po otworzeniu magazynu (Wstaw "OFF" jesli chcesz wylaczyc)
+    signset: '&6Ustawiles tabliczke do magazynu: &e{NUM}' #Wiadomosc ktora sie wyswietla po ustawieniu tabliczki do magazynu
+    chestset: '&6UTworzono magazyn: &e{NUM} &6z nazwa &e{NAME}' #Wiadomosc ktora sie wyswietla po ustawieniu tabliczki do magazynu
+    giveaccess: '&6Dales dostep do magazynu nr &e{NUM} &6graczowi o nicku: {PLAYER}' #Wiadomosc ktora sie wyswietla po daniu graczowi magazynu
+    getaccess: '&6Otrzymales dostep do magazynu nr &e{NUM}' #Wiadomosc ktora sie wyswietla po otrzymaniu magazynu
+    removeaccess: '&6Zabrales dostep do magazynu nr &e{NUM} &6graczowi o nicku: {PLAYER}' #Wiadomosc ktora sie wyswietla po zabraniu graczowi magazynu
+    takeaccess: '&6Zabrano ci dostep do magazynu nr &e{NUM}' #Wiadomosc ktora sie wyswietla po zabraniu magazynu
+    haschest: '&cTen gracz juz ma dostep do tego magazynu !' #Wiadomosc ktora sie wyswietla gdy gracz ma juz magazyn ale gracz znowu chce dac magazyn
+    nhaschest: '&cTen gracz juz nie ma dostepu do tego magazynu !' #Wiadomosc ktora sie wyswietla gdy gracz nie ma juz magazyn ale gracz znowu chce zabrac magazyn
+    naccesschest: '&cTen magazyn nie potrzebuje dostepu !' #Wiadomosc ktora sie wyswietla gdy gracz chce zabrac lub dac komus dostep do magazynu ale ten magazyn nie potrzebuje dostepu
+    noperm: '&cNie masz permisji !' #Wiadomosc ktora sie wyswietla jesli gracz nie ma permisji 
+    nosign: '&cNie patrzysz na tabliczke! (Pamietaj, musi ona wisiec na scianie!)' #Wiadomosc ktora sie wyswietla jesli gracz nie patrzy na tabliczke podczas uzywania komendy /setsign
+    errornr: '&cTa liczba nie jest prawid³owa !' #Wiadomosc ktora sie wyswietla jesli liczba jest niepoprawna
+    errorboolean: '&cTen boolean jest niepoprawny !' #Wiadomosc ktora sie wyswietla jesli boolean jest niepoprawny
+    noplayer: '&cNie podales nicku gracza !' #Wiadomosc ktora sie wyswietla gdy sie nie poda nicku gracza
+    noaccess: '&cNie masz dostepu do magazynu nr {NUM}!' #Wiadomosc ktora sie wyswietla gdy gracz nie ma dostepu do jakiegos magazynu
+    correctusage: #Wiadomosc ktora sie wyswietla jesli cos zle wpiszesz
+    - '&6Poprawne uzycie:'
+    - '&6/magazyn setsign (numer magazynu) &8- &eUstawia tabliczke do otwierania magazynu'
+    - '&6/magazyn setchest (numer magazynu) (true/false [czy potrzebuje dostepu]) (nazwa) &8- &eTworzy magazyn'
+    - '&6/magazyn giveaccess (nick gracza) (nr magazynu) &8- &eDaje dostep podanemu graczu do magazynu'
+    - '&6/magazyn removeaccess (nick gracza) (nr magazynu) &8- &eZabiera dostep podanemu graczu do magazynu'
+  database:
+    type: flat #Dostepne: flat
+data: #PRZECHOWYWANIE DANYCH (NAJLEPIEJ NIC TU NIE ZMIENIAJ!)
+  tabliczki:
+  magazyny:
+  

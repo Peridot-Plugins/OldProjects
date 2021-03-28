@@ -1,0 +1,11 @@
+rootProject.name = 'OldProjects'
+
+include 'mckvote'
+include 'mcklosowanie'
+include 'mckrtp'
+include 'mckdailyreward'
+include 'mckmagazyn'
+include 'mckkod'
+include 'periantyfav'
+include 'peripanel'
+

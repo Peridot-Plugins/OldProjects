@@ -1,0 +1,129 @@
+config:
+  tasks:
+    autosave: 600
+  cost:
+    name-change:
+      - "100,EMERALD_BLOCK,0"
+    tag-change:
+      - "100,EMERALD_BLOCK,0"
+    home-change:
+      - "10,EMERALD_BLOCK,0"
+  format:
+    date: "dd/MM/yyyy HH:mm"
+    decimal: "#.##"
+  messages:
+    roles:
+      member: "&9Czlonek"
+      deputy: "&9Zatepca"
+      owner: "&9Wlasciciel"
+    status:
+      owner:
+        online: "&aOnline"
+        offline: "&cOffline"
+    manage-guild:
+      name-change:
+        default-text: "Podaj nazwe gildii"
+        empty: "Pole jest puste"
+        invalid: "Niepoprawna nazwa gildii"
+        too-long: "Zbyt dluga nazwa gildii"
+        too-short: "Zbyt krotka nazwa gildii"
+        exist: "Nazwa jest juz zajeta"
+        can-not-afford: "Nie stac cie"
+      tag-change:
+        default-text: "Podaj tag gildii"
+        empty: "Pole jest puste"
+        invalid: "Niepoprawny tag gildii"
+        too-long: "Zbyt dlugi tag gildii"
+        too-short: "Zbyt krotki tag gildii"
+        exist: "Tag jest juz zajety"
+        can-not-afford: "Nie stac cie"
+  inventories:
+    panel:
+      title: "&8» &3Panel gildii"
+      size: 5
+      buttons:
+        background:
+          material: STAINED_GLASS_PANE
+          durability: 7
+          name: " "
+        info:
+          slot: 4
+          material: PAPER
+          name: "&8» &3Informacje"
+          lore:
+            - "&8» &7Nazwa: &9{GUILD-NAME} &8[&9{GUILD-TAG}&8]"
+            - "&8» &7Wielkosc: &9{GUILD-SIZE}"
+            - "&8» &7Data zalozenia: &9{GUILD-BORN-DATE}"
+            - "&8» &7Data wygasniecia: &9{GUILD-VALIDITY-DATE}"
+            - "&8» &7Wlasciciel: &9{GUILD-OWNER} &8(&9{GUILD-OWNER-ONLINE}&8)"
+            - "&8» &7Twoja rola: &9{GUILD-USER-ROLE}"
+          actions:
+            - NONE
+        rank:
+          slot: 2
+          material: EMPTY_MAP
+          name: "&8» &3Ranking"
+          lore:
+            - "&8» &7Pozycja w rankingu: &9{GUILD-POSITION}"
+            - "&8» &7Punkty: &9{GUILD-POINTS}"
+            - "&8» &7Zabojstwa: &9{GUILD-KILLS}"
+            - "&8» &7Smierci: &9{GUILD-DEATHS}"
+            - "&8» &7KDR: &9{GUILD-KDR}"
+          actions:
+            - NONE
+        stats:
+          slot: 6
+          material: EMPTY_MAP
+          name: "&8» &3Statystyki"
+          lore:
+            - "&8» &7Liczba czlonkow: &9{GUILD-MEMBERS} &8(&9{GUILD-MEMBERS-ONLINE} online&8)"
+            - "&8» &7Liczba zastepcow: &9{GUILD-DEPUTIES} &8(&9{GUILD-DEPUTIES-ONLINE} online&8)"
+            - "&8» &7Sojusznicy: &9{GUILD-ALLIES}"
+          actions:
+            - NONE
+        manage-guild:
+          slot: 22
+          material: SIGN
+          name: "&8» &3Zarzadzaj gildia"
+          lore:
+            - "&8» &7Kliknij aby otworzyc menu zarzadzania gildia"
+          actions:
+            - OPEN_GUILD_MANAGE_GUI
+    manage-guild:
+      title: "&8» &3Panel - zarzadzanie gildia"
+      size: 4
+      buttons:
+        background:
+          material: STAINED_GLASS_PANE
+          durability: 7
+          name: " "
+        back:
+          slot: 31
+          material: BARRIER
+          name: "&8» &cWroc"
+          lore:
+            - "&8» &7Kliknij aby wrocic do poprzedniej strony"
+        name-change:
+          slot: 10
+          material: SIGN
+          name: "&8» &3Zmiana nazwy gildii"
+          lore:
+            - "&8» &7Kliknij aby zmienic nazwe gildii"
+            - ""
+            - "&8» &7Koszt: &9100 bloków szmaragdu"
+        tag-change:
+          slot: 13
+          material: SIGN
+          name: "&8» &3Zmiana tagu gildii"
+          lore:
+            - "&8» &7Kliknij aby zmienic tag gildii"
+            - ""
+            - "&8» &7Koszt: &9100 bloków szmaragdu"
+        home-change:
+          slot: 16
+          material: BED
+          name: "&8» &3Zmiana domu gildii"
+          lore:
+            - "&8» &7Kliknij aby zmienic dom gildii"
+            - ""
+            - "&8» &7Koszt: &910 bloków szmaragdu"

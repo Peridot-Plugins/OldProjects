@@ -1,0 +1,8 @@
+messages:
+  noperm: '&8» &7Nie posiadasz uprawnien!'
+  correctusageplayer: '&8» &7Poprawne uzycie: &c/vote &atak&7/&cnie!'
+  correctusageadmin:
+    - '&8» &7Poprawne uzycie:'
+    - '&8» &7/vote admin create <na co> <czas w sekundach> &8- &ctworzy ankiete'
+    - '&8» &7/vote admin list &8- &cpokazuje liste na co moze zostac rozpoczeta ankieta'
+    - '&8» &7/vote admin end &8- &ckonczy ankiete'

@@ -1,0 +1,7 @@
+takenreward: '&7Nagroda zostala juz zabrana! Nastepna bedziesz mogl wziac za &b%time%'
+rewardtake: '&bOtrzymales dzienna nagrode!'
+noperm: '&bNie posiadasz uprawnien'
+takecmds:
+  - "give %player% minecraft:diamond 1"
+
+players: #Nie zmieniac tu nic

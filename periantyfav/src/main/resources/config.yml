@@ -1,0 +1,9 @@
+date_format: "dd.MM.yyyy, HH:mm"
+new_item_description:
+  - "&cUwaga! Ten przedmiot pochodzi z trybu kreatywnego!"
+  - "&cJeśli go posiadasz zgłoś się jak najszybciej do administracji!"
+  - " "
+  - "&8» &7Gracz: &6{WHO}"
+  - "&8» &7Kiedy: &6{WHEN}"
+  - "&8» &7Gdzie: &6{WORLD}&7, &6{X}&7, &6{Y}&7, &6{Z}"
+  - "&8» &7Ile: &6{AMOUNT}"

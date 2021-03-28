@@ -1,0 +1,10 @@
+name: periPanel
+author: Peridot
+version: 1.0
+main: me.peridot.peripanel.PeriPanel
+website: mlgroup.pl
+depend: [FunnyGuilds]
+
+commands:
+  panel:
+    aliases: [menu, zarzadzaj]

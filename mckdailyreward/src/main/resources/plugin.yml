@@ -1,0 +1,9 @@
+name: MCKDailyReward
+author: Peridot
+version: 1.0
+main: me.mckoxu.mckdailyreward.MCKDailyReward
+website: mlgroup.pl
+
+commands:
+  reward:
+    aliases: [getreward, nagroda, weznagrode, dailyreward, dziennanagroda]

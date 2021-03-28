@@ -1,0 +1,8 @@
+name: MCKKod
+author: Peridot
+version: 1.0
+main: me.mckoxu.mckkod.MCKKod
+
+commands:
+  kod:
+    aliases: [code]

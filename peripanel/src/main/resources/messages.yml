@@ -1,0 +1,44 @@
+messages:
+  errors:
+    noplayer.content: "&3periDrop &8» &7Tylko gracz moze uzyc tej komendy!"
+    noperm:
+      chat:
+        send-if-not-player: true
+        content: "&3periPanel &8» &7Nie posiadasz uprawnienia &9{PERMISSION}&7!"
+      title:
+        enabled: true
+        content: "&8» &c&lBrak uprawnien"
+        sub-content: "&7Nie posiadasz uprawnien ({PERMISSION})"
+        fade-in: 10
+        stay: 40
+        fade-out: 10
+    noguild:
+      title:
+        enabled: true
+        content: "&8» &c&lBrak gildii"
+        sub-content: "&7Nie posiadasz gildii"
+        fade-in: 10
+        stay: 40
+        fade-out: 10
+    manage-guild:
+      can-not-afford-for-home-change:
+        chat:
+          enabled: true
+          content: "&3periPanel &8» &7Nie stac cie na zmiane domu gildii!"
+  manage-guild:
+    name-changed:
+      title:
+        enabled: true
+        content: "&8» &a&lZmieniono nazwe gildii"
+        sub-content: "&c{OLD-NAME} &8-> &a{NEW-NAME}"
+        fade-in: 10
+        stay: 40
+        fade-out: 10
+    tag-changed:
+      title:
+        enabled: true
+        content: "&8» &a&lZmieniono tag gildii"
+        sub-content: "&c{OLD-TAG} &8-> &a{NEW-TAG}"
+        fade-in: 10
+        stay: 40
+        fade-out: 10

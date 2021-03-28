@@ -1,0 +1,16 @@
+errors:
+  noperm: '&8> &7Nie masz uprawnien!'
+  nobutton: '&8> &7Na tych koordynatach nie bylo ustawionego przycisku!'
+  notargetedbutton: '&8> &7To nie jest przycisk!'
+  correctusage: '&8> &7Poprawne uzycie: &a/rtp add/remove'
+info:
+  setbutton: '&8> &7Ustawiles przycisk w &a{WORLD}&7, &a{X}&7, &a{Y}&7, &a{Z}&7!'
+  removebutton: '&8> &7Usunales przycisk w &a{WORLD}&7, &a{X}&7, &a{Y}&7, &a{Z}&7!'
+  teleport: '&8> &7Przeteleportowales sie na &a{X}&7, &a{Y}&7, &a{Z}&7!'
+data:
+  min-x: 1000
+  min-z: 1000
+  max-x: 3000
+  max-z: 3000
+buttons:
+  list:

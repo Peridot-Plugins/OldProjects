@@ -1,0 +1,20 @@
+messages:
+  noperm: '&8> &7Nie posiadasz uprawnien!'
+  toomuchplayers: '&8> &7Maksymalna liczba osób które mogą wygrać losowanie to &35&7!'
+  notenoughplayers: '&8> &7Na serwerze musi być conajmniej &32 graczy &7aby rozpoczac losowanie!'
+  wrongnumber: '&8> &7Podana liczba jest mniejsza od 1 lub wcale nie jest liczba!'
+  airinhand: '&8> &7W reku masz powietrze!'
+  correctusage: '&8> &7Poprawne uzycie: &3/losowanie <liczba graczy ktorzy wygraja>'
+  start: '&8> &7Gracz &3{ADMIN} &7rozpoczal losowanie na &3{ITEM}&7 dla &3{PLAYERSAMOUNT} osob(-y)&7, wyniki za 1 minute!'
+  end: '&8> &7Losowanie zakonczy sie za: &3{TIME} sek'
+  win: '&8> &7Losowanie wygral(-i) gracz(-e): &3{PLAYERS}'
+maxplayers: 5 #Maksymalna ilosc osób które mogą wygrać
+minplayersonline: 2 #Minimalna liczba graczy zeby losowanie sie rozpoczelo
+drawlong: 60 #Czas za ktory maja zostac wylosowani zwyciezcy
+endnotification: #Sekundy w ktorych ma zostac wyswietlona informacja kiedy losowanie sie zakonczy
+  - 30
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1

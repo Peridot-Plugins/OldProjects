@@ -1,0 +1,17 @@
+noperm: '&cNie posiadasz uprawnien!' #Wiadomość wyświetlana jeżeli gracz nie posiada uprawnień
+noplayer: '&cJestes administratorem, nie mozesz uzyc kodu!' #Wiadomość wyświetlana adminowi jeżeli próbuje użyć kodu a w configu ma zablokowaną opcje jego używania
+nooneusecode: '&cNikt nie uzyl kodu :C' #Wiadomośc wyświetlana jeżeli nikt nie użył kodu wygenerowanego automatycznie (nie przez admina)
+wrongcode: '&cNiepoprawny kod!'
+correctusage:
+  player: '&7Poprawne uzycie: &b/kod <kod>' #Poprawne użycie komendy dla gracza
+  admin: '&7Poprawne uzycie: &b/kod start' #Poprawne użycie komendy dla administratora
+code: '&7Przepisz kod aby otrzymac nagrode! Kod: &b%code%'
+usecode: '&7Gracz &b%player% &7jako pierwszy uzyl kodu! Nastepne losowanie rozpocznie sie za 3 minuty!'
+charset: 'ABCDEFGHIJKLMNOPQRSTUWVXYZabcdefghijklmnopqrstuwvxyz1234567890'
+codelenght: 7
+admincaseusecode: false #Czy admin może używać kodów, standardowo: false
+time: 180 #Co jaki czas  jest generowany automatyczny kod (w sekundach)
+timetouseadmincode: 30 #Jaki jest czas na użycie kodu admina, po tym czasie zaczyna się znowu automatyczne losowanie
+commands:
+  - 'give %player% minecraft:diamond 1'
+  - 'pex user %player% group set vip'

@@ -1,0 +1,12 @@
+name: MCKMagazyn
+version: 1.1
+main: me.mckoxu.mckmagazyn.MCKMagazyn
+authors: [McKoxu]
+description: Plugin dodaje magazyny
+website: mlgroup.pl
+softdepend: [Skript]
+api-version: 1.13
+
+commands:
+  magazyn:
+    aliases: [magazyny, mckm, mmagazyn, mm]
