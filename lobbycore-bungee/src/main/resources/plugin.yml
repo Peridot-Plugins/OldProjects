@@ -1,0 +1,8 @@
+name: LobbyCore
+version: 1.0
+author: Peridot (McKoxu)
+main: me.mckoxu.bungeecord.lobbycore.LobbyCore
+
+commands:
+  lobby:
+  connect:

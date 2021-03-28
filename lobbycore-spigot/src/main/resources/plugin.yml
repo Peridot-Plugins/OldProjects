@@ -1,0 +1,12 @@
+name: LobbyCore
+version: 1.0
+author: Peridot (McKoxu)
+main: me.mckoxu.spigot.lobbycore.LobbyCore
+
+commands:
+  setlobby:
+    aliases: [sethub, ustawlobby, ustawhub]
+    description: Komenda od ustawiania lobby na ktorym pojawia sie gracz po wejsciu na serwer
+  check:
+    aliases: [sprawdz]
+    description: Komenda od sprawdzania danych serwera bungeecord

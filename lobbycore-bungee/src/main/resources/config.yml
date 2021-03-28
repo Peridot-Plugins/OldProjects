@@ -1,0 +1,39 @@
+messages:
+  lobbyoffline: '&8» &7Lobby jest wylaczone!'
+  connectcorrectusage:
+    - '&8» &7Serwery z ktorymi mozesz sie polaczyc: &2{SERVERS}'
+    - '&8» &7Poprawne uzycie: &2/polacz <serwer>'
+  none: Brak
+connect:
+  connect:
+    title: '&8» &2{SERVER} &8«'
+    subtitle: '&7{MOTD}'
+  connecting:
+    title: '&8» &cLaczenie z {SERVER}'
+    subtitle: '&8» &7Trwa laczenie z serwerem...'
+  lose:
+    title: '&8» &cPolaczenie z {SERVER} nie powiodlo sie'
+    subtitle: '&8» &7Sproboj ponownie pozniej lub wybierz inny serwer!'
+  noperm:
+    title: '&8» &cNie posiadasz uprawnien do serwera {SERVER}!'
+    subtitle: '&8» &7Wybierz inny serwer!'
+  alreadyonserver:
+    title: '&8» &7Aktualnie jestes na &2{SERVER}!'
+    subtitle: '&8» &7Wybierz inny serwer :)'
+  alreadyonlobby:
+    title: '&8» &7Aktualnie jestes na &2LOBBY!'
+    subtitle: '&8» &7Wybierz  jakis tryb :)'
+serverlist:
+  motd: "&8» &7Start edycji: &2Sobota 17:00\n&8» &7Zapraszamy na nasza strone: &2MLGROUP.PL"
+  version: '&8» &7Online: &2{ONLINE} &c❤'
+  players:
+    - '&8---------------------------'
+    - '&8» &7WWW: &2MLGROUP.PL'
+    - '&8» &7TS3: &2MLGROUP.PL'
+    - ' '
+    - '&8» &7Gracze na serwerach: '
+    - '&8» &7LOBBY: &2{SERVER-lobby-ONLINE}'
+    - '&8» &7EASYHC: &2{SERVER-easyhc-ONLINE}'
+    - '&8---------------------------'
+servers:
+  lobby: 'lobby'

@@ -1,0 +1,66 @@
+messages:
+  noperm: '&8» &7Nie masz uprawnien!'
+  setlobby: '&8» &7Ustawiles lobby serwera na: &2{WORLD}&7, &2{X}&7, &2{Y}&7, &2{Z}'
+  correctusage: '&8» &7Poprawne uzycie: &2{CORRECTUSAGE}'
+  status:
+    on: '&aON'
+    off: '&cOFF'
+forceweather:
+  enabled: true
+  type: sun #Do wyboru: sun/rain/storm
+forcetime:
+  enabled: true
+  time: 5000
+lobbyworld: world #Świat w jakim znajduje się lobby
+data: #To tylko zapis danych, najlepiej nic tutaj nie zmieniaj!
+  lobby:
+    x: 0
+    y: 100
+    z: 0
+    world: 'world'
+    yaw: 0
+    pitch: 0
+
+serverlist:
+  open:
+    command: true
+    item:
+      enabled: true
+      item:
+        material: COMPASS
+        data: 0
+        name: '&8» &7Lista serwerów'
+        lore:
+          - '&8» Kliknij PPM aby otworzyc liste serwerow'
+  inventory:
+    title: '&8» &7Lista serwerów'
+    size: 3
+    items:
+      background:
+        material: STAINED_GLASS_PANE
+        data: 15
+        name: ' '
+      servers:
+        easyhc:
+          connect: easyhc
+          slot: 11
+          material: DIAMOND_SWORD
+          data: 0
+          name: '&8» &7Serwer &2EASYHC'
+          lore:
+            - '&8» &7Kliknij aby polaczyc sie z serwerem'
+            - '&8» &7Gracze: &2{PLAYERCOUNT}'
+            - '&8» &7Status: &2{STATUS}'
+        skyblock:
+          connect: skyblock
+          slot: 15
+          material: GRASS
+          data: 0
+          name: '&8» &7Serwer &2SKYBLOCK'
+          lore:
+            - '&8» &7Kliknij aby polaczyc sie z serwerem'
+            - '&8» &7Gracze: &2{PLAYERCOUNT}'
+            - '&8» &7Status: &2{STATUS}'
+update:
+  time: 300
+
