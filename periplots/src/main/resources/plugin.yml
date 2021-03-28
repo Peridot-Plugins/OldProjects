@@ -1,0 +1,7 @@
+name: periPlots
+version: 1.0
+author: Peridot
+main: pl.peridot.periplots.PeriPlotsMain
+website: mlgroup.pl
+api-version: 1.13
+depend: [WorldGuard]
