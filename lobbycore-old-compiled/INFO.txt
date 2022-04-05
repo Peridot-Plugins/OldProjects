@@ -1,0 +1,3 @@
+Autor: Peridot (McKoxu)
+
+WA¯NE: Musisz wgraæ plugin z folderu Bungee do folderu z pluginami Bungeecorda, a plugin z folderu Lobby do folderu z pluginami Lobby (Spigot)
